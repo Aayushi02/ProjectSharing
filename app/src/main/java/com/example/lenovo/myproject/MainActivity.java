@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String pass = et_password.getText().toString();
             String password = db.searchpass(uname);
             String str = " C";
-            et_password.setText(" ");
-            et_user.setText(" ");
+           // et_password.setText("");
+            //et_user.setText(" ");
           /* if (R.id.rb1 == rg.getCheckedRadioButtonId()) {
                 str = "Company";
             } else if (R.id.rb2 == rg.getCheckedRadioButtonId()) {
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             // String str = ((RadioButton) findViewById(rg.getCheckedRadioButtonId())).getText().toString();
             str= db.searchutype(uname);
-            tv.setText(str);
+           // tv.setText(str);
             if (pass.equals(password)) {
 
                 if (str.equals("Company")) {
