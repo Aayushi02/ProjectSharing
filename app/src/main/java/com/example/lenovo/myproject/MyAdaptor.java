@@ -69,7 +69,7 @@ Toast.makeText(MyAdaptor.this.context,"Not joined",Toast.LENGTH_SHORT).show();
         }
         else{
           // if(count==0)
-           btn.setEnabled(false);
+           //btn.setEnabled(false);
           // else
             //   count--;
        }

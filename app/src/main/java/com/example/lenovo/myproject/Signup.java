@@ -53,7 +53,7 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
         if(is_inserted == true){
             Toast.makeText(Signup.this, "Signed up" , Toast.LENGTH_LONG).show();
             et1.setText(" ");
-            et2.setText(" ");
+            et2.setText("");
             et3.setText(" ");
             et4.setText(" ");
             if(R.id.rb1==rg.getCheckedRadioButtonId()){
@@ -62,6 +62,8 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
            else if(R.id.rb2==rg.getCheckedRadioButtonId()){
                 rb2.setChecked(false);
             }
+            Intent i = new Intent(this,MainActivity.class);
+            startActivity(i);
         }
         else {
             Toast.makeText(Signup.this, "Not signed up", Toast.LENGTH_LONG).show();
