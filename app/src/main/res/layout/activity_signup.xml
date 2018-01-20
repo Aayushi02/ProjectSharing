@@ -78,7 +78,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+<<<<<<< HEAD
         android:background="@drawable/corners"
+=======
+        android:background="@color/black"
+>>>>>>> 85b36c290684bc29b7423e1fb07ab5d081855dfc
         android:text="Signup" />
 
 </LinearLayout>
