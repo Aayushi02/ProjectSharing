@@ -17,10 +17,9 @@ Button btn;
         String username = i.getStringExtra("username");
         Bundle bundle = new Bundle();
         bundle.putString("uname",username);
-   btn = (Button)findViewById(R.id.logout);
+        btn = (Button)findViewById(R.id.logout);
         btn.setOnClickListener(this);
         FragmentManager fm;
-
         android.support.v4.app.FragmentTransaction ft;
         fm= getSupportFragmentManager();
         Fragment_tab fragment_tab = new Fragment_tab();

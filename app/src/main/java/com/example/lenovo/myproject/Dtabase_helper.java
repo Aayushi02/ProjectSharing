@@ -6,9 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by Lenovo on 19-06-2017.
- */
 
 public class Dtabase_helper extends SQLiteOpenHelper {
     public static final String Name = "Flipmooc.db";
